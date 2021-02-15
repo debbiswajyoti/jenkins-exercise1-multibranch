@@ -7,7 +7,7 @@ pipeline{
         timestamps()
     }
     stages{
-        stage('stage-11'){
+        stage('stage-1'){
             steps{
                 echo "In stage1"
                 sh 'sleep 3'
